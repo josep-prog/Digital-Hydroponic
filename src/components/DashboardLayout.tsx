@@ -70,6 +70,9 @@ const DashboardLayout = () => {
       <aside className="w-64 bg-sidebar border-r border-sidebar-border flex flex-col">
         <div className="p-6 border-b border-sidebar-border">
           <div className="flex items-center gap-3">
+            <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center overflow-hidden">
+              <img src="/logo.jpg" alt="FarmDash Logo" className="h-full w-full object-cover" />
+            </div>
             <div className="h-10 w-10 rounded-lg bg-primary/10 flex items-center justify-center">
               <Sprout className="h-6 w-6 text-primary" />
             </div>
